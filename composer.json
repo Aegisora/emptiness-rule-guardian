@@ -1,8 +1,24 @@
 {
     "name": "aegisora/emptiness-rule-guardian",
-    "description": "<REPOSITORY_DESCRIPTION>",
+    "description": "Emptiness Rule Guardian provides a simple shortcut for emptiness validation using aegisora/guardian and aegisora/emptiness-rule",
     "type": "library",
-    "keywords": ["php", "aegisora", "aegisora-ecosystem"],
+    "keywords": [
+        "php",
+        "aegisora",
+        "aegisora-ecosystem",
+        "validation",
+        "guardian",
+        "emptiness",
+        "empty",
+        "empty-check",
+        "empty-rule",
+        "not-empty",
+        "not-empty-check",
+        "not-empty-rule",
+        "emptiness-rule",
+        "rule",
+        "rule-guardian"
+    ],
     "homepage": "https://github.com/Aegisora/emptiness-rule-guardian",
     "support": {
         "issues": "https://github.com/Aegisora/emptiness-rule-guardian/issues",
