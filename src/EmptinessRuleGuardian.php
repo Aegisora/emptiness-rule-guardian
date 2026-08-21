@@ -6,6 +6,7 @@ use Aegisora\Guardian\Exceptions\GuardianExecutingRuleException;
 use Aegisora\Guardian\Exceptions\GuardianValidationException;
 use Aegisora\Guardian\Guardian;
 use Aegisora\Rules\Emptiness\EmptyRule;
+use Aegisora\Rules\Emptiness\NotEmptyRule;
 use Throwable;
 
 class EmptinessRuleGuardian
@@ -29,5 +30,18 @@ class EmptinessRuleGuardian
         ?Throwable $exception = null
     ): void {
         $this->guardian->check($value, EmptyRule::create(), $exception);
+    }
+
+    /**
+     * @param mixed $value
+     * @throws GuardianExecutingRuleException
+     * @throws GuardianValidationException
+     * @throws Throwable
+     */
+    public function checkNotEmpty(
+        $value,
+        ?Throwable $exception = null
+    ): void {
+        $this->guardian->check($value, NotEmptyRule::create(), $exception);
     }
 }
