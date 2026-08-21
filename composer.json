@@ -1,12 +1,28 @@
 {
-    "name": "aegisora/<REPOSITORY_NAME>",
-    "description": "<REPOSITORY_DESCRIPTION>",
+    "name": "aegisora/emptiness-rule-guardian",
+    "description": "Emptiness Rule Guardian provides a simple shortcut for emptiness validation using aegisora/guardian and aegisora/emptiness-rule",
     "type": "library",
-    "keywords": ["php", "aegisora", "aegisora-ecosystem"],
-    "homepage": "https://github.com/Aegisora/<REPOSITORY_NAME>",
+    "keywords": [
+        "php",
+        "aegisora",
+        "aegisora-ecosystem",
+        "validation",
+        "guardian",
+        "emptiness",
+        "empty",
+        "empty-check",
+        "empty-rule",
+        "not-empty",
+        "not-empty-check",
+        "not-empty-rule",
+        "emptiness-rule",
+        "rule",
+        "rule-guardian"
+    ],
+    "homepage": "https://github.com/Aegisora/emptiness-rule-guardian",
     "support": {
-        "issues": "https://github.com/Aegisora/<REPOSITORY_NAME>/issues",
-        "source": "https://github.com/Aegisora/<REPOSITORY_NAME>"
+        "issues": "https://github.com/Aegisora/emptiness-rule-guardian/issues",
+        "source": "https://github.com/Aegisora/emptiness-rule-guardian"
     },
     "authors": [
         {
@@ -17,7 +33,9 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "aegisora/guardian": "^1.0",
+        "aegisora/emptiness-rule": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.6",
@@ -26,12 +44,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Aegisora\\<PACKAGE>\\": "src/"
+            "Aegisora\\RuleGuardians\\EmptinessRuleGuardian\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Aegisora\\<PACKAGE>\\Tests\\": "tests/"
+            "Aegisora\\RuleGuardians\\EmptinessRuleGuardian\\Tests\\": "tests/"
         }
     },
     "config": {
