@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1648587867">
-  <project timestamp="1648587867">
-    <metrics files="0" loc="0" ncloc="0" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+<coverage generated="1787324632">
+  <project timestamp="1787324632">
+    <file name="/home/runner/work/emptiness-rule-guardian/emptiness-rule-guardian/src/EmptinessRuleGuardian.php">
+      <class name="Aegisora\RuleGuardians\EmptinessRuleGuardian\EmptinessRuleGuardian" namespace="global">
+        <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
+      </class>
+      <line num="16" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="74"/>
+      <line num="19" type="stmt" count="74"/>
+      <line num="28" type="method" name="checkEmpty" visibility="public" complexity="1" crap="1" count="46"/>
+      <line num="32" type="stmt" count="46"/>
+      <line num="41" type="method" name="checkNotEmpty" visibility="public" complexity="1" crap="1" count="28"/>
+      <line num="45" type="stmt" count="28"/>
+      <metrics loc="48" ncloc="36" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
+    </file>
+    <metrics files="1" loc="48" ncloc="36" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
   </project>
 </coverage>
